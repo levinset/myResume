@@ -1,3 +1,10 @@
+/*
+SPACING SYSTEM (px)
+2 / 4 / 8 /10/ 12 / 16 / 24 / 32 / 48 / 64 / 80 / 96 / 128
+
+FONT SIZE SYSTEM (px)
+10 / 12 / 14 / 16 / 18 / 20 / 24 / 30 / 32/ 36 / 44 / 52 / 62 / 74 / 86 / 98
+*/
 
 /* 
 BACHGROUND COLOR:#000000e2;
@@ -16,7 +23,7 @@ GREY COLOR: #343a40
 /* ------------------------ */
 html {
   font-family: "Arimo", sans-serif;
-  font-size: 1rem;
+  font-size: 16px;
   text-align: left;
   line-height: 1.5;
 }
@@ -32,7 +39,7 @@ main {
   background-color: #343a40;
   overflow: hidden;
   border-radius: 20px;
-  margin: 6rem 4rem;
+  margin: 80px 80px;
   font-weight: 400;
   display: grid;
   grid-template-columns: 1fr 2fr;
@@ -49,54 +56,53 @@ main {
   display: flex;
 }
 .margin-10 {
-  margin-bottom: 1rem;
+  margin-bottom: 10px;
 }
 /* ------------------------ */
 /* COMPONENT STYLES */
 /* ------------------------ */
 .left {
-  margin: 6rem 4rem;
+  padding: 80px 40px;
   color: #ebebe1ec;
   display: flex;
   flex-direction: column;
   /* align-content: center; */
   align-items: center;
 
-  background-color: #343a40
-  gap: 4rem;
+  background-color: #333;
+  gap: 40px;
 
   position: relative;
 }
 .my--photo {
   border-radius: 100%;
-  width: 20rem;
-  margin-bottom: 4rem;
+  width: 250px;
 }
 .about--p {
-  margin-bottom: 8rem;
+  margin-bottom: 80px;
 }
 .horizontal--line {
-  margin-bottom: 4rem;
+  margin-bottom: 40px;
 }
 
 .right {
   background-color: #ebebe1ec;
-  padding: 6rem 4rem;
+  padding: 80px 40px;
   display: flex;
   flex-direction: column;
-  gap: 4rem;
+  gap: 40px;
 }
 .name {
-  font-size: 2rem;
+  font-size: 32px;
   font-weight: 700;
   line-height: 1;
 }
 .contacts {
-  margin-left: 12rem;
+  margin-left: 260px;
   line-height: 1.2;
 }
 .information {
-  margin-bottom: 2rem;
+  margin-bottom: 20px;
 }
 .header {
   display: flex;
@@ -147,7 +153,7 @@ main {
   width: 50%;
   background-color: #ebebe1ec;
   padding: 6rem;
-  border-radius: 2rem;
+  border-radius: 20px;
   box-shadow: 0 3rem 5rem rgba(0, 0, 0, 0.3);
   z-index: 10;
 }
